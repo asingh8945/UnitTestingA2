@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceApp", "ECommerceApp\ECommerceApp.csproj", "{6A348D08-31CC-4506-8E95-5C0B3B82BD33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceApp.Tests", "ECommerceApp.Tests\ECommerceApp.Tests.csproj", "{1DFC1F79-4BE8-47F7-B65B-D1180C8ECAEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6A348D08-31CC-4506-8E95-5C0B3B82BD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A348D08-31CC-4506-8E95-5C0B3B82BD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A348D08-31CC-4506-8E95-5C0B3B82BD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFC1F79-4BE8-47F7-B65B-D1180C8ECAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFC1F79-4BE8-47F7-B65B-D1180C8ECAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFC1F79-4BE8-47F7-B65B-D1180C8ECAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFC1F79-4BE8-47F7-B65B-D1180C8ECAEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
