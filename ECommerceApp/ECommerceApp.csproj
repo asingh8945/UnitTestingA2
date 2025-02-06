@@ -80,6 +80,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceApp.Tests\ECommerceApp.Tests.csproj">
+      <Project>{1dfc1f79-4be8-47f7-b65b-d1180c8ecaee}</Project>
+      <Name>ECommerceApp.Tests</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
